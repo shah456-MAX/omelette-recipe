@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  
+  <title>Simple Omelette</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet. -->
+   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: bisque;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 48px 16px;
+    }
+    
+    
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      width: 100%;
+      overflow: hidden;
+      .recipe-image {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+.content {
+      padding: 36px 48px 40px;
+    }
+    h1 {
+      font-family: serif sans-serif;
+      font-size: 2.2rem;
+      margin-bottom: 16px;
+      color: sandybrown;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+    .intro {
+      font-size: 0.97rem;
+      color: #555;
+      margin-bottom: 24px;
+    }
+    .prep-box {
+      background-color: #f9f9f9;
+      padding: 16px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+    }
+   .table{
+     border-collapse:collapse ;
+     border-bottom: 1px;
+     width: 100%;
+     margin-bottom: 20px;
+     border-bottom:1px solid hsl(0, 27%, 81%) ;
+   } 
+table tr td {
+  border-bottom: 1px solid hsl(0, 27%, 81%);
+  border-collapse: collapse;
+  border-top: 1px solid hsl(0, 27%, 81%);
+  justify-content: space-evenly;
+}
+ .recipe image {
+      width: 100%;
+      height: auto;
+      display: block;
+    } 
+    .ptime {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: hsl(330, 85%, 23%);
+    }
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      color: hsl(14, 45%, 36%);
+    }
+    .ingridients-list, .instructions-list {
+      margin-left: 20px;
+      margin-bottom: 24px;
+    }
+    .ingridients-list li, .instructions-list li {
+      margin-bottom: 8px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid hsl(0, 27%, 81%);
+      margin: 24px 0;
+    }
+    .nutrition-table {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      color: hsl(14, 45%, 36%);
+    }
+.
+    
+     
+  </style>
+</head>
+<body>
+  <article class="card">
+<img src="assets/images/image-omelette.jpeg" alt="omelette" class="recipe image" width="600px">
+<div class="content">
+  <h1>Simple Omelette Recipe</h1>
+
+ <p class="intro">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+  to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+<div class="prep-box">
+  
+  <h5 class="ptime"">Preparation time</h5>
+
+<ul>
+  <li><strong>Total:</strong> Approximately 10 minutes</li>
+  <li><span class="label">Preparation:</span> 5 minutes</li>
+  <li><span class="label">Cooking:</span> 5 minutes</li>
+</ul>
+</div>
+
+<hr class="divider">
+
+  <h3 class="section-title" ">Ingredients</h3>
+<ul class="ingridients-list">
+  <li>2-3 large eggs</li>
+  <li>Salt, to taste</li>
+  <li>Pepper, to taste</li>
+  <li>1 tablespoon of butter or oil</li>
+  <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+</ul>
+<hr class="divider">
+  <h3  class="section-title"  >Instructions</h3>
+<ol class="instructions-list">
+  <li> <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+  <li> <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+
+
+  <li> <strong> Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+  the eggs evenly coat the surface.</li>
+  <li> <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the 
+  middle, sprinkle your chosen fillings over one half of the omelette.</li>
+
+
+  <li><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the 
+  fillings. Let it cook for another minute, then slide it onto a plate.</li>
+
+<li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+</ol>
+<hr class="divider">
+ <h3 class="nutrition-table"> Nutrition</h3>
+
+ <p> The table below shows nutritional values per serving without the additional fillings.</p>
+<table class="table">
+  <tr>
+    <th>Nutrient</th>
+    <th>Value</th>
+  </tr>
+  
+  <tr>
+    <td>Calories</td>
+    <td>277kcal</td>
+  </tr>
+  
+  <tr>
+    <td>Carbs</td>
+    <td>0g</td>
+  </tr>
+  
+  <tr> 
+    <td>Protein</td>
+    <td>20g</td>
+  </tr>
+  
+  <tr>
+    <td>Fat</td>
+    <td>22g</td>
+  </tr>
+  
+</table>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="">SHALINE</a>.
+  </div>
+</body>
+</html>

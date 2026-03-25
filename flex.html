@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox layout</title>
+    <style>
+        .container div {
+            background-color: burlywood;
+            width: 40px;
+            height: 20%;
+        }
+        .container {
+            width: 600px;
+            height: 400px;
+            background-color:lightgray;
+            display: flex;
+            flex-direction:row;
+            height: 300px;
+            gap: 10px;
+            justify-content:flex-end;
+            align-items:space-between;
+            flex-wrap: wrap;
+        }
+        .flex-1 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-1"><p>flex</p></div>
+        <div class="flex-2"><p>flex</p></div>
+        <div class="flex-3"><p>flex</p></div>
+        <div class="flex-4"><p>flex</p></div>
+        
+
+    </div>
+</body>
+</html>
